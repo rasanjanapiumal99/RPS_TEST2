@@ -34,7 +34,7 @@ Neotro.addCommand({pattern: 'aivi', fromMe: false, dontAddCommandList: true}, (a
         buttonText: 'TEST',
         description: "TEST",
         sections: sections,
-        listType: 1
+        listType: 2
        }
 
        await message.client.sendMessage(message.jid, button, MessageType.listMessage)
